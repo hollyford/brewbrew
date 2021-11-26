@@ -1,8 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 import fetch from 'jest-fetch-mock'
-import MemoryRouter from 'react-router-dom'
-import { act } from "react-dom/test-utils";
 const mockData = {
   id: 1,
   name: "test"
